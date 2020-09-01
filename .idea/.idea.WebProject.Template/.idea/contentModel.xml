@@ -14,6 +14,9 @@
             <e p="EUnitOfMeasurement.cs" t="Include" />
             <e p="Product.cs" t="Include" />
           </e>
+          <e p="Services" t="Include">
+            <e p="ICategoryServices.cs" t="Include" />
+          </e>
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
