@@ -9,10 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d371059-0ee1-492f-b1d6-9665d540530e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/CategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,8 @@
         <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Contexts/AppDbContext.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/CategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Program.cs" />
       </list>
     </option>
   </component>
@@ -47,6 +47,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994337" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30011326" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -93,13 +95,14 @@
       <option name="presentableId" value="Default" />
       <updated>1598917596590</updated>
       <workItem from="1598917600315" duration="3549000" />
+      <workItem from="1598921631627" duration="782000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -111,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
