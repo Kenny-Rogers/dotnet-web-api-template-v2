@@ -9,11 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d371059-0ee1-492f-b1d6-9665d540530e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Models/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Models/EUnitOfMeasurement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Models/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/WebProject.Template.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/WebProject.Template.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/WeatherForecast.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Models/Category.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Models/Product.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Models/EUnitOfMeasurement.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" />
       </list>
     </option>
   </component>
@@ -85,9 +86,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598917596590</updated>
-      <workItem from="1598917600315" duration="591000" />
+      <workItem from="1598917600315" duration="1223000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />

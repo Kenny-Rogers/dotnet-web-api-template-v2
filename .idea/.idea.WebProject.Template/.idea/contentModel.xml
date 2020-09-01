@@ -6,7 +6,7 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="WebProject.Template" t="IncludeRecursive">
         <e p="Controllers" t="Include">
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="CategoriesController.cs" t="Include" />
         </e>
         <e p="Domain" t="Include">
           <e p="Models" t="Include">
@@ -20,7 +20,6 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
         <e p="WebProject.Template.csproj" t="IncludeRecursive" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
