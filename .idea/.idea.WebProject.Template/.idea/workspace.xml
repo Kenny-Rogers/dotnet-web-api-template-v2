@@ -9,11 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d371059-0ee1-492f-b1d6-9665d540530e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Resources/CategoryResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Mapping/ModelToResourceProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/WebProject.Template.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/WebProject.Template.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,8 @@
         <option value="$PROJECT_DIR$/WebProject.Template/Program.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Resources/CategoryResource.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Mapping/ModdelToResourceProfile.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Mapping/ModelToResourceProfile.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598917596590</updated>
       <workItem from="1598917600315" duration="3549000" />
-      <workItem from="1598921631627" duration="1480000" />
+      <workItem from="1598921631627" duration="1714000" />
     </task>
     <servers />
   </component>
