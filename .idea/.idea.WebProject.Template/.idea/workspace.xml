@@ -9,9 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d371059-0ee1-492f-b1d6-9665d540530e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/CategoryRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Models/Category.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Contexts/AppDbContext.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/CategoryRepository.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598917596590</updated>
-      <workItem from="1598917600315" duration="3351000" />
+      <workItem from="1598917600315" duration="3549000" />
     </task>
     <servers />
   </component>
@@ -118,5 +120,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="275" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080@0.0.1920.1080" timestamp="1598917596565" />
+    <state x="1222" y="197" width="426" height="693" key="RiderGenerateDialog" timestamp="1598921080398">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1222" y="197" width="426" height="693" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598921080398" />
   </component>
 </project>

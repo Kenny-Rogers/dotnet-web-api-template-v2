@@ -2,11 +2,11 @@ using WebProject.Template.Persistence.Contexts;
 
 namespace WebProject.Template.Persistence.Persistence
 {
-    public class BaseRepository
+    public abstract class BaseRepository
     {
-        private readonly AppDbContext _context;
+        protected readonly AppDbContext _context;
 
-        public BaseRepository(AppDbContext context)
+        protected BaseRepository(AppDbContext context)
         {
             _context = context;
         }
