@@ -34,6 +34,9 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Resources" t="Include">
+          <e p="CategoryResource.cs" t="Include" />
+        </e>
         <e p="Services" t="Include">
           <e p="CategoryService.cs" t="Include" />
         </e>
