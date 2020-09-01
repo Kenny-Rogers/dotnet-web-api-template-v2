@@ -15,7 +15,7 @@ using Microsoft.Extensions.Logging;
 using WebProject.Template.Domain.Repositories;
 using WebProject.Template.Domain.Services;
 using WebProject.Template.Persistence.Contexts;
-using WebProject.Template.Persistence.Persistence;
+using WebProject.Template.Persistence.Repositories;
 using WebProject.Template.Services;
 
 namespace WebProject.Template
@@ -40,6 +40,7 @@ namespace WebProject.Template
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddAutoMapper(typeof(Startup));
         }
 

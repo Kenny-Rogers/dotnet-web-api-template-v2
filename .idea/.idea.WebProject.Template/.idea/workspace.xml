@@ -9,12 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d371059-0ee1-492f-b1d6-9665d540530e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Extensions/ModelStateExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Mapping/ResourceToModelProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProject.Template/Resources/SaveCategoryResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/IUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Services/Communication/BaseResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Services/Communication/SaveCategoryResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/UnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/ICategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Domain/Services/ICategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Services/ICategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/BaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/CategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Services/CategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject.Template/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +37,28 @@
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Models/Product.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Models/EUnitOfMeasurement.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Services/ICategoryServices.cs" />
-        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Services/ICategoryService.cs" />
-        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/ICategoryRepository.cs" />
-        <option value="$PROJECT_DIR$/WebProject.Template/Services/CategoryService.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Models/Category.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Contexts/AppDbContext.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/BaseRepository.cs" />
-        <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/CategoryRepository.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Program.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Resources/CategoryResource.cs" />
-        <option value="$PROJECT_DIR$/WebProject.Template/Startup.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Mapping/ModdelToResourceProfile.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Mapping/ModelToResourceProfile.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Resources/SaveCategoryResource.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Extensions/ModelStateExtensions.cs" />
-        <option value="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Mapping/ResourceToModelProfile.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Services/Communication/BaseResponse.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Services/Communication/SaveCategoryResponse.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Services/ICategoryService.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/ICategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Persistence/CategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/BaseRepository.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/CategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/UnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Services/CategoryService.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Startup.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598917596590</updated>
       <workItem from="1598917600315" duration="3549000" />
-      <workItem from="1598921631627" duration="2902000" />
+      <workItem from="1598921631627" duration="5717000" />
     </task>
     <servers />
   </component>
@@ -130,22 +143,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="284" key="GridCell.Tab.0.bottom" timestamp="1598923609912">
+    <state width="914" height="284" key="GridCell.Tab.0.bottom" timestamp="1598924925503">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598923609912" />
-    <state width="914" height="284" key="GridCell.Tab.0.center" timestamp="1598923609912">
+    <state width="914" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598924925503" />
+    <state width="914" height="284" key="GridCell.Tab.0.center" timestamp="1598924925503">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598923609912" />
-    <state width="914" height="284" key="GridCell.Tab.0.left" timestamp="1598923609911">
+    <state width="914" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598924925503" />
+    <state width="914" height="284" key="GridCell.Tab.0.left" timestamp="1598924925502">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598923609911" />
-    <state width="914" height="284" key="GridCell.Tab.0.right" timestamp="1598923609912">
+    <state width="914" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598924925502" />
+    <state width="914" height="284" key="GridCell.Tab.0.right" timestamp="1598924925503">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598923609912" />
+    <state width="914" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598924925503" />
     <state width="914" height="378" key="GridCell.Tab.1.bottom" timestamp="1598922400883">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -218,9 +231,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1222" y="197" width="426" height="693" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598921080398" />
-    <state x="1103" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1598923429213">
+    <state x="1103" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1598927281348">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1103" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1598923429213" />
+    <state x="1103" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1598927281348" />
   </component>
 </project>

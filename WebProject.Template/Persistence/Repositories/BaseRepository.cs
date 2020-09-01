@@ -1,6 +1,6 @@
 using WebProject.Template.Persistence.Contexts;
 
-namespace WebProject.Template.Persistence.Persistence
+namespace WebProject.Template.Persistence.Repositories
 {
     public abstract class BaseRepository
     {
