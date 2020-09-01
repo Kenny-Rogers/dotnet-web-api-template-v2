@@ -14,13 +14,19 @@
             <e p="EUnitOfMeasurement.cs" t="Include" />
             <e p="Product.cs" t="Include" />
           </e>
+          <e p="Repositories" t="Include">
+            <e p="ICategoryRepository.cs" t="Include" />
+          </e>
           <e p="Services" t="Include">
-            <e p="ICategoryServices.cs" t="Include" />
+            <e p="ICategoryService.cs" t="Include" />
           </e>
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="CategoryService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="WebProject.Template.csproj" t="IncludeRecursive" />
