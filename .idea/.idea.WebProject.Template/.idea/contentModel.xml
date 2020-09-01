@@ -21,8 +21,12 @@
             <e p="ICategoryService.cs" t="Include" />
           </e>
         </e>
+        <e p="Extensions" t="Include">
+          <e p="ModelStateExtensions.cs" t="Include" />
+        </e>
         <e p="Mapping" t="Include">
           <e p="ModelToResourceProfile.cs" t="Include" />
+          <e p="ResourceToModelProfile.cs" t="Include" />
         </e>
         <e p="Persistence" t="Include">
           <e p="Contexts" t="Include">
@@ -39,6 +43,7 @@
         </e>
         <e p="Resources" t="Include">
           <e p="CategoryResource.cs" t="Include" />
+          <e p="SaveCategoryResource.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
           <e p="CategoryService.cs" t="Include" />
