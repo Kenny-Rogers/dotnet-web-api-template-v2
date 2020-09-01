@@ -1,15 +1,22 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using WebProject.Template.Domain.Models;
+using WebProject.Template.Domain.Repositories;
 using WebProject.Template.Domain.Services;
 
 namespace WebProject.Template.Services
 {
     public class CategoryService : ICategoryService
     {
-        public Task<IEnumerable<Category>> ListAsync()
+        private readonly ICategoryRepository _categoryRepository;
+
+        public CategoryService(ICategoryRepository categoryRepository)
         {
-            throw new System.NotImplementedException();
+            _categoryRepository = categoryRepository;
+        }
+        public async Task<IEnumerable<Category>> ListAsync()
+        {
+            return await _categoryRepository.ListAsync();
         }
     }
 }
