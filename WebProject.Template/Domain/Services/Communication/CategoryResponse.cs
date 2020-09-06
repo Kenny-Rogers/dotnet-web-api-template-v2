@@ -3,11 +3,11 @@ using WebProject.Template.Domain.Models;
 
 namespace WebProject.Template.Domain.Services.Communication
 {
-    public class SaveCategoryResponse : BaseResponse
+    public class CategoryResponse : BaseResponse
     {
         public readonly Category Category;
 
-        private SaveCategoryResponse(bool success, string message, Category category) : base(success, message)
+        private CategoryResponse(bool success, string message, Category category) : base(success, message)
         {
             Category = category;
         }        
@@ -17,13 +17,13 @@ namespace WebProject.Template.Domain.Services.Communication
         /// </summary>
         /// <param name="category">Saved category</param>
         /// <returns>Response</returns>
-        public SaveCategoryResponse(Category category) : this(true, string.Empty, category){}
+        public CategoryResponse(Category category) : this(true, string.Empty, category){}
 
         /// <summary>
         /// Creates an error response
         /// </summary>
         /// <param name="message">Error Message</param>
         /// <returns>Response</returns>
-        public SaveCategoryResponse(string message) : this(false, message, null){}
+        public CategoryResponse(string message) : this(false, message, null){}
     }
 }

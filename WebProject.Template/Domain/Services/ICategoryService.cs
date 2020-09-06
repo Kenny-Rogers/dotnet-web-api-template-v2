@@ -7,7 +7,10 @@ namespace WebProject.Template.Domain.Services
 {
     public interface ICategoryService
     {
+        Task<Category> GetAsync(string id);
         Task<IEnumerable<Category>> ListAsync();
-        Task<SaveCategoryResponse> SaveAsync(Category category);
+        Task<CategoryResponse> SaveAsync(Category category);
+        Task<CategoryResponse> UpdateAsync(int id, Category category);
+        Task<CategoryResponse> DeleteAsync(int id);
     }
 }
