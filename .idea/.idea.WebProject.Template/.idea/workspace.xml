@@ -9,14 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d371059-0ee1-492f-b1d6-9665d540530e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Controllers/ProductsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Extensions/EnumExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProject.Template/Resources/ProductResource.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProject.Template/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/ICategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/Domain/Services/Communication/SaveCategoryResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Services/Communication/CategoryResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/Domain/Services/ICategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Domain/Services/ICategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/CategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProject.Template/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject.Template/Services/CategoryService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +47,14 @@
         <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/UnitOfWork.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Startup.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Services/Communication/CategoryResponse.cs" />
-        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/ICategoryRepository.cs" />
-        <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/CategoryRepository.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Controllers/CategoriesController.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Domain/Services/ICategoryService.cs" />
         <option value="$PROJECT_DIR$/WebProject.Template/Services/CategoryService.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Domain/Repositories/ICategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Persistence/Repositories/CategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Controllers/ProductsController.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Resources/ProductResource.cs" />
+        <option value="$PROJECT_DIR$/WebProject.Template/Extensions/EnumExtensions.cs" />
       </list>
     </option>
   </component>
@@ -116,7 +116,8 @@
       <workItem from="1598917600315" duration="3549000" />
       <workItem from="1598921631627" duration="8201000" />
       <workItem from="1599370278772" duration="76000" />
-      <workItem from="1599370369266" duration="667000" />
+      <workItem from="1599370369266" duration="2437000" />
+      <workItem from="1599423375808" duration="1279000" />
     </task>
     <servers />
   </component>
@@ -145,22 +146,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1035" y="184" width="800" height="719" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1599370379917" />
-    <state width="914" height="284" key="GridCell.Tab.0.bottom" timestamp="1599370824238">
+    <state width="914" height="284" key="GridCell.Tab.0.bottom" timestamp="1599371349645">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599370824238" />
-    <state width="914" height="284" key="GridCell.Tab.0.center" timestamp="1599370824238">
+    <state width="914" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599371349645" />
+    <state width="914" height="284" key="GridCell.Tab.0.center" timestamp="1599371349645">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599370824238" />
-    <state width="914" height="284" key="GridCell.Tab.0.left" timestamp="1599370824237">
+    <state width="914" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599371349645" />
+    <state width="914" height="284" key="GridCell.Tab.0.left" timestamp="1599371349644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599370824237" />
-    <state width="914" height="284" key="GridCell.Tab.0.right" timestamp="1599370824238">
+    <state width="914" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599371349644" />
+    <state width="914" height="284" key="GridCell.Tab.0.right" timestamp="1599371349645">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599370824238" />
+    <state width="914" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599371349645" />
     <state width="914" height="378" key="GridCell.Tab.1.bottom" timestamp="1598922400883">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

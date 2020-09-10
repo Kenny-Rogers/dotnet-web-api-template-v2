@@ -27,6 +27,7 @@
           </e>
         </e>
         <e p="Extensions" t="Include">
+          <e p="EnumExtensions.cs" t="Include" />
           <e p="ModelStateExtensions.cs" t="Include" />
         </e>
         <e p="Mapping" t="Include">
@@ -49,6 +50,7 @@
         </e>
         <e p="Resources" t="Include">
           <e p="CategoryResource.cs" t="Include" />
+          <e p="ProductResource.cs" t="Include" />
           <e p="SaveCategoryResource.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
